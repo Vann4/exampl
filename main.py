@@ -8,3 +8,5 @@ for i in range(len(number_list)):
         number_list[i] = user_string
 
 print(number_list)
+
+print("Иван, приветствую! Это попытка стать твоим контрибьютером!")
