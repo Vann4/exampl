@@ -19,3 +19,4 @@ for letter in user_string:
         letter_count[letter] += 1
     else:
         letter_count[letter] = 1
+repeated_letters = {letter: count for letter, count in letter_count.items() if count > 1} #Новый словарь
