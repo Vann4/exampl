@@ -21,6 +21,6 @@ for letter in user_string:
         letter_count[letter] = 1
 repeated_letters = {letter: count for letter, count in letter_count.items() if count > 1} #Новый словарь
 
-print("Количество повторяющихся букв в строке:")
+print('Количество повторяющихся букв в строке:')
 for letter, count in repeated_letters.items():
-    print(f"{letter}: {count}")
+    print(f"{letter}: {count}") #Вывод букв и их количество
