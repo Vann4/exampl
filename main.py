@@ -13,3 +13,9 @@
 #Задача: взять текст от пользователя и вывести число повторяющихся букв
 user_string = input('Введите текст на английском языке: ')
 letter_count = {} #Пустой словарь
+
+for letter in user_string:
+    if letter in letter_count: #Проверка есть ли данный символ в словаре
+        letter_count[letter] += 1
+    else:
+        letter_count[letter] = 1
